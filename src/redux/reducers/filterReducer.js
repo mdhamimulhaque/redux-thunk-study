@@ -1,4 +1,4 @@
-import { TOGGLE_BRAND, TOGGLE_FILTER, TOGGLE_STOCK } from "../actionTypes/actionTypes";
+import { TOGGLE_BRAND, TOGGLE_STOCK } from "../actionTypes/actionTypes";
 
 const initialState = {
     filter: {
