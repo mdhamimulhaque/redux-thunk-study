@@ -6,6 +6,7 @@ import {
   PRODUCT_LOADED,
   REMOVE_FROM_CART,
   REMOVE_PRODUCT,
+  REMOVE_PRODUCTS,
 } from "../actionTypes/actionTypes";
 
 export const loadProducts = (data) => {
@@ -20,6 +21,16 @@ export const addProducts = (data) => {
     payload: data,
   }
 }
+export const removeProducts = (id) => {
+  return {
+    type: REMOVE_PRODUCTS,
+    payload: id,
+  }
+}
+
+
+
+// -----
 
 export const addProduct = (product) => {
   return {

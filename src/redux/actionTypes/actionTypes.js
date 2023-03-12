@@ -5,6 +5,7 @@ export const ADD_PRODUCT = "ADD_PRODUCT";
 export const REMOVE_PRODUCT = "REMOVE_PRODUCT";
 export const LOAD_PRODUCTS = "LOAD_PRODUCTS";
 export const ADD_PRODUCTS = "ADD_PRODUCTS";
+export const REMOVE_PRODUCTS = "REMOVE_PRODUCTS";
 
 // filter types
 export const TOGGLE_BRAND = "TOGGLE_BRAND";
