@@ -1,5 +1,6 @@
 import {
   ADD_PRODUCT,
+  ADD_PRODUCTS,
   ADD_TO_CART,
   LOAD_PRODUCTS,
   PRODUCT_LOADED,
@@ -10,6 +11,12 @@ import {
 export const loadProducts = (data) => {
   return {
     type: LOAD_PRODUCTS,
+    payload: data,
+  }
+}
+export const addProducts = (data) => {
+  return {
+    type: ADD_PRODUCTS,
     payload: data,
   }
 }

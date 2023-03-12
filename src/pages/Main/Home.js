@@ -10,7 +10,6 @@ const Home = () => {
   const filter = useSelector((state) => state.filter.filter);
   const products = useSelector((state) => state.product.products);
   const { brands, stock } = filter;
-  console.log(products)
 
   useEffect(() => {
     dispatch(loadProductData())
